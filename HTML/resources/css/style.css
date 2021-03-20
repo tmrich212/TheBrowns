@@ -4,10 +4,9 @@
 }
 
 header{
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: x-large;
 }
 
 h1{ 
@@ -64,11 +63,18 @@ h2 {
     font-size: 28px;
 }
 
-.quote{
+
+
+.quote, quote{
     text-align: center;
     margin-top: 2px;
     font-family: 'Special Elite', cursive;
     font-size: 20px;
+}
+
+quote {
+    margin-left: 500px;
+
 }
 
 .title{
@@ -81,6 +87,14 @@ p{
     margin: 10px 45px;
     text-indent: 40px;
 }
+
+.img {
+    float: right;
+    height: 500px;
+    width: auto;
+    margin: 20px;
+}
+
 footer{
     text-align: center;
     margin-right: auto;
